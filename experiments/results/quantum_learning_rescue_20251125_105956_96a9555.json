@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "id": "f4462d21-99c9-49bb-a2a7-ff1c1415f55c",
+    "timestamp": "2025-11-25T10:59:42.827142",
+    "platform": "Linux-6.14.0-36-generic-x86_64-with-glibc2.39",
+    "python_version": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "config": {
+      "experiment_name": "quantum_learning_rescue",
+      "backend_name": "ibm_fez",
+      "n_qubits": 6,
+      "shots": 4096,
+      "use_hardware": false,
+      "optimization_level": 3,
+      "spsa_iterations": 100,
+      "spsa_lr": 0.05
+    },
+    "git_commit": "96a955514cd7d18fe7ec1bdb7e33b20e70c6fb53",
+    "git_dirty": true
+  },
+  "results": {
+    "test1_basic_learning": {
+      "train_loss_final": 0.04331923779856307,
+      "test_same_domain": 0.6647729256536677,
+      "test_diff_domain": -0.5540845536445385,
+      "theta": [
+        -0.011853022932809468,
+        0.004907651286015833,
+        -0.02287849259032738,
+        -0.0005186578858420142,
+        -0.026107828100308525,
+        -0.0456795924287299,
+        0.006189966310172806,
+        0.02956224678473357,
+        0.001941917121208582,
+        -0.002672687184811496,
+        -0.017715635580943807,
+        0.03077847888752422
+      ],
+      "verdict": "PASS"
+    },
+    "test2_entanglement": {
+      "entangled_corr": 0.6647729256536677,
+      "product_corr": 0.9425404803573683,
+      "improvement": -0.2777675547037005,
+      "verdict": "NO_BENEFIT"
+    },
+    "test3_training": {
+      "random_corr": 0.6803352003438173,
+      "trained_corr": 0.6647729256536677,
+      "improvement": -0.015562274690149591,
+      "verdict": "NO_BENEFIT"
+    }
+  }
+}
