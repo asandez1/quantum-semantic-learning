@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Ariel Sandez" />
-  <title>Quantum Semantic Learning on NISQ Hardware: Demonstrated Plasticity, Entanglement Requirement, and Classical-Like Scaling</title>
+  <title>Quantum Semantic Learning on NISQ Hardware</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,9 +29,7 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Quantum Semantic Learning on NISQ Hardware:
-Demonstrated Plasticity, Entanglement Requirement, and Classical-Like
-Scaling</h1>
+<h1 class="title">Quantum Semantic Learning on NISQ Hardware</h1>
 <p class="author">Ariel Sandez</p>
 </header>
 <nav id="TOC" role="doc-toc">
@@ -137,7 +135,11 @@ AI/ML Independent Researcher, Argentina <strong>ORCID</strong>: <a
 href="https://orcid.org/0009-0004-7623-6287">0009-0004-7623-6287</a>
 <strong>Email</strong>: ariel.sandez@fortegrp.com
 <strong>LinkedIn</strong>: <a
-href="https://www.linkedin.com/in/sandez/">linkedin.com/in/sandez</a></p>
+href="https://www.linkedin.com/in/sandez/">linkedin.com/in/sandez</a>
+<strong>GitHub</strong>: <a
+href="https://github.com/asandez1/quantum-semantic-learning">github.com/asandez1/quantum-semantic-learning</a>
+<strong>DOI</strong>: <a
+href="https://doi.org/10.5281/zenodo.17728126">10.5281/zenodo.17728126</a></p>
 <h2 id="abstract">Abstract</h2>
 <p>We address the open question of whether parameterized quantum
 circuits can natively learn high-dimensional semantic relationships, and
@@ -1231,8 +1233,8 @@ photonic quantum processor.” <em>Nature Communications</em>, 5,
 Quantum States</em>. Cambridge University Press.</p>
 <hr />
 <h2 id="supplementary-material">Supplementary Material</h2>
-<p>Full experimental details, code, and raw data are available in the
-project repository.</p>
+<p>Full experimental details, code, and raw data are available at: <a
+href="https://github.com/asandez1/quantum-semantic-learning">github.com/asandez1/quantum-semantic-learning</a></p>
 <p><img src="figures/fig5_summary_dashboard_updated.png"
 alt="Figure 5: Summary Dashboard" /> <em>Figure 5: Summary dashboard
 showing all key results validated on hardware. (A) Encoding hierarchy
@@ -1299,19 +1301,69 @@ class="math inline">\([0.1, \pi]\)</span>), causing denominator
 underflow. Fix: compute distances on <em>unscaled</em> PCA vectors, then
 scale for quantum encoding.</p>
 <h3 id="e.-data-availability">E. Data Availability</h3>
-<p>All experimental artifacts archived at: -
-<code>paper4/results/</code> - JSON results for all phases -
-<code>paper4/experiments/</code> - Python scripts (V1-V7) -
-<code>paper4/experiments/results/v3_best_theta.json</code> - Trained V3
-weights (12 pairs) -
-<code>paper4/experiments/results/v3_moredata_theta.json</code> - Trained
-V3 weights (40 pairs) -
-<code>paper4/experiments/results/v3_hardware_ibm_fez_*.json</code> -
-Hardware transfer results -
-<code>paper4/experiments/results/entanglement_test_hardware_*.json</code>
-- Entanglement ablation results -
-<code>paper4/experiments/results/v3_full_benchmark_hardware_*.json</code>
-- <strong>Scaling experiment results</strong></p>
+<p>All experimental artifacts are publicly available at <a
+href="https://github.com/asandez1/quantum-semantic-learning">github.com/asandez1/quantum-semantic-learning</a>:</p>
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 20%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>Path</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>V3 Architecture</td>
+<td><code>experiments/quantum_learning_v3.py</code></td>
+<td>Main experiment code</td>
+</tr>
+<tr class="even">
+<td>Hardware Transfer</td>
+<td><code>experiments/quantum_learning_v3_hardware.py</code></td>
+<td>Hardware validation</td>
+</tr>
+<tr class="odd">
+<td>Entanglement Test</td>
+<td><code>experiments/quantum_entanglement_test.py</code></td>
+<td>Ablation study</td>
+</tr>
+<tr class="even">
+<td>Full Benchmark</td>
+<td><code>experiments/quantum_v3_full_benchmark.py</code></td>
+<td>83-pair evaluation</td>
+</tr>
+<tr class="odd">
+<td>Scaling Experiment</td>
+<td><code>experiments/quantum_v3_moredata.py</code></td>
+<td>40-pair training</td>
+</tr>
+<tr class="even">
+<td>Trained Weights (12 pairs)</td>
+<td><code>experiments/results/v3_best_theta.json</code></td>
+<td>V3 parameters</td>
+</tr>
+<tr class="odd">
+<td>Trained Weights (40 pairs)</td>
+<td><code>experiments/results/v3_moredata_theta.json</code></td>
+<td>Scaled parameters</td>
+</tr>
+<tr class="even">
+<td>Hardware Results</td>
+<td><code>experiments/results/v3_hardware_ibm_fez_*.json</code></td>
+<td>IBM Quantum outputs</td>
+</tr>
+<tr class="odd">
+<td>Entanglement Results</td>
+<td><code>experiments/results/entanglement_test_hardware_*.json</code></td>
+<td>Ablation data</td>
+</tr>
+</tbody>
+</table>
 <h3 id="f.-interactive-visualizations">F. Interactive
 Visualizations</h3>
 <p>Interactive 3D visualizations are available as HTML files: -
@@ -1323,8 +1375,9 @@ Original hyperbolic atlas</p>
 rotation via mouse drag - Zoom via scroll wheel - Training progression
 via slider animation - Hover for concept details</p>
 <hr />
-<p><em>Corresponding Author: DiscoveryAI Research</em> <em>Hardware
-Access: IBM Quantum Network (Free Tier)</em> <em>Reproducibility: All
-code and data available upon request</em></p>
+<p><em>Corresponding Author: Ariel Sandez
+(ariel.sandez@fortegrp.com)</em> <em>Hardware Access: IBM Quantum
+Network (Free Tier)</em> <em>Code and Data: <a
+href="https://github.com/asandez1/quantum-semantic-learning">github.com/asandez1/quantum-semantic-learning</a></em></p>
 </body>
 </html>

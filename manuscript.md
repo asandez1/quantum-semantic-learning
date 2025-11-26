@@ -9,6 +9,8 @@
 **ORCID**: [0009-0004-7623-6287](https://orcid.org/0009-0004-7623-6287)
 **Email**: ariel.sandez@fortegrp.com
 **LinkedIn**: [linkedin.com/in/sandez](https://www.linkedin.com/in/sandez/)
+**GitHub**: [github.com/asandez1/quantum-semantic-learning](https://github.com/asandez1/quantum-semantic-learning)
+**DOI**: [10.5281/zenodo.17728126](https://doi.org/10.5281/zenodo.17728126)
 
 ## Abstract
 
@@ -404,7 +406,7 @@ The perceived "fundamental limits" of quantum semantic learning were never funda
 
 ## Supplementary Material
 
-Full experimental details, code, and raw data are available in the project repository.
+Full experimental details, code, and raw data are available at: [github.com/asandez1/quantum-semantic-learning](https://github.com/asandez1/quantum-semantic-learning)
 
 ![Figure 5: Summary Dashboard](figures/fig5_summary_dashboard_updated.png)
 *Figure 5: Summary dashboard showing all key results validated on hardware. (A) Encoding hierarchy with $132\times$ gap. (B) Entanglement effect +0.81 on hardware. (C) Hardware transfer +18% correlation improvement. (D) Learning effect +1.61 on hardware. (E) Empirical scaling law showing $4.25\times$ improvement from 12 to 40 training pairs.*
@@ -439,14 +441,19 @@ Python:                3.12.3
 
 ### E. Data Availability
 
-All experimental artifacts archived at:
-- `paper4/results/` - JSON results for all phases
-- `paper4/experiments/` - Python scripts (V1-V7)
-- `paper4/experiments/results/v3_best_theta.json` - Trained V3 weights (12 pairs)
-- `paper4/experiments/results/v3_moredata_theta.json` - Trained V3 weights (40 pairs)
-- `paper4/experiments/results/v3_hardware_ibm_fez_*.json` - Hardware transfer results
-- `paper4/experiments/results/entanglement_test_hardware_*.json` - Entanglement ablation results
-- `paper4/experiments/results/v3_full_benchmark_hardware_*.json` - **Scaling experiment results**
+All experimental artifacts are publicly available at [github.com/asandez1/quantum-semantic-learning](https://github.com/asandez1/quantum-semantic-learning):
+
+| Resource | Path | Description |
+|----------|------|-------------|
+| V3 Architecture | `experiments/quantum_learning_v3.py` | Main experiment code |
+| Hardware Transfer | `experiments/quantum_learning_v3_hardware.py` | Hardware validation |
+| Entanglement Test | `experiments/quantum_entanglement_test.py` | Ablation study |
+| Full Benchmark | `experiments/quantum_v3_full_benchmark.py` | 83-pair evaluation |
+| Scaling Experiment | `experiments/quantum_v3_moredata.py` | 40-pair training |
+| Trained Weights (12 pairs) | `experiments/results/v3_best_theta.json` | V3 parameters |
+| Trained Weights (40 pairs) | `experiments/results/v3_moredata_theta.json` | Scaled parameters |
+| Hardware Results | `experiments/results/v3_hardware_ibm_fez_*.json` | IBM Quantum outputs |
+| Entanglement Results | `experiments/results/entanglement_test_hardware_*.json` | Ablation data |
 
 ### F. Interactive Visualizations
 
@@ -462,6 +469,6 @@ These can be viewed in any modern web browser and allow:
 
 ---
 
-*Corresponding Author: DiscoveryAI Research*
+*Corresponding Author: Ariel Sandez (ariel.sandez@fortegrp.com)*
 *Hardware Access: IBM Quantum Network (Free Tier)*
-*Reproducibility: All code and data available upon request*
+*Code and Data: [github.com/asandez1/quantum-semantic-learning](https://github.com/asandez1/quantum-semantic-learning)*

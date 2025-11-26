@@ -31,10 +31,11 @@ Independent Researcher, Argentina
 2025-11-26
 ```
 
-### DOI (will be assigned by Zenodo)
+### DOI
 ```
-10.5281/zenodo.XXXXXXX
+10.5281/zenodo.17728126
 ```
+**URL**: https://doi.org/10.5281/zenodo.17728126
 
 ---
 
@@ -98,7 +99,7 @@ MIT License
 ### GitHub Repository
 ```
 Type: IsSupplementTo
-Identifier: https://github.com/YOUR_USERNAME/quantum-semantic-learning
+Identifier: https://github.com/asandez1/quantum-semantic-learning
 ```
 
 ### ORCID Profile
@@ -196,7 +197,7 @@ Software versions:
 
 ### BibTeX
 ```bibtex
-@dataset{sandez2025quantum,
+@software{sandez2025quantum,
   author       = {Sandez, Ariel},
   title        = {{Quantum Semantic Learning on NISQ Hardware:
                    Demonstrated Plasticity, Entanglement Requirement,
@@ -204,16 +205,16 @@ Software versions:
   month        = nov,
   year         = 2025,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.17728126},
+  url          = {https://doi.org/10.5281/zenodo.17728126}
 }
 ```
 
 ### APA
 ```
 Sandez, A. (2025). Quantum Semantic Learning on NISQ Hardware: Demonstrated Plasticity,
-Entanglement Requirement, and Classical-Like Scaling [Data set]. Zenodo.
-https://doi.org/10.5281/zenodo.XXXXXXX
+Entanglement Requirement, and Classical-Like Scaling (v1.0.0). Zenodo.
+https://doi.org/10.5281/zenodo.17728126
 ```
 
 ---

@@ -2,6 +2,7 @@
 
 **Demonstrated Plasticity, Entanglement Requirement, and Classical-Like Scaling**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17728126.svg)](https://doi.org/10.5281/zenodo.17728126)
 [![Paper](https://img.shields.io/badge/Paper-Preprint-blue)](manuscript.md)
 [![Platform](https://img.shields.io/badge/Platform-IBM%20Quantum-purple)](https://quantum.ibm.com/)
 [![Qubits](https://img.shields.io/badge/Qubits-156-green)](https://quantum.ibm.com/)
@@ -105,13 +106,16 @@ python experiments/quantum_learning_v3_hardware.py
 ## Citation
 
 ```bibtex
-@article{sandez2025quantum,
-  title={Quantum Semantic Learning on NISQ Hardware: Demonstrated Plasticity,
-         Entanglement Requirement, and Classical-Like Scaling},
-  author={Sandez, Ariel},
-  journal={Preprint},
-  year={2025},
-  note={IBM Quantum ibm\_fez (156 qubits)}
+@software{sandez2025quantum,
+  author       = {Sandez, Ariel},
+  title        = {{Quantum Semantic Learning on NISQ Hardware:
+                   Demonstrated Plasticity, Entanglement Requirement,
+                   and Classical-Like Scaling}},
+  month        = nov,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17728126},
+  url          = {https://doi.org/10.5281/zenodo.17728126}
 }
 ```
 
