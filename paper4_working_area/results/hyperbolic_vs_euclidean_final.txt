@@ -1,5 +1,0 @@
-# Hyperbolic vs Euclidean — Final Result
-- Date: 2025-11-24T13:41:02.683284
-Fully hyperbolic model: final loss 27.683800
-Euclidean model: final loss 13.903018
-EUCLIDEAN STILL AHEAD
