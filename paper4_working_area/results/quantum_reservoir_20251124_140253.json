@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-24T14:02:53.704926",
+  "method": "quantum_reservoir",
+  "n_train": 20,
+  "n_test": 10,
+  "train_correlation": 0.999999962643781,
+  "test_correlation": -0.5486942568801213,
+  "test_mse": 0.3311784032937052,
+  "test_mae": 0.46316923298409274,
+  "best_alpha": 0.001,
+  "reservoir_params": {
+    "n_layers": 3,
+    "seed": 42
+  },
+  "feature_dim": 3300,
+  "hardware": false,
+  "backend": "simulator"
+}

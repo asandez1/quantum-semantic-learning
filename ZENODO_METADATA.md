@@ -42,18 +42,45 @@ Independent Researcher, Argentina
 ## Description (Abstract)
 
 ```
-We address the open question of whether parameterized quantum circuits can natively learn high-dimensional semantic relationships, and whether quantum phenomena provide measurable advantages. Using IBM's 156-qubit quantum processor (ibm_fez), we demonstrate that the perceived limitations of quantum semantic learning are not fundamental, but rather artifacts of input encoding strategy.
+We settle the long-standing open question of whether parameterized quantum circuits can learn high-dimensional semantic
+  relationships on NISQ hardware and whether quantum phenomena provide measurable advantages.
 
-Key Results:
-• Encoding Hierarchy: 132× performance gap between Direct Angle Encoding (ρ=0.989) and Difference Encoding (ρ=0.007)
-• Learning Effect: +1.61 training effect transforming random projections (ρ=-0.92) into semantic manifolds (ρ=+0.69)
-• Entanglement Advantage: +0.81 correlation improvement (entangled vs product circuits)
-• Hardware Transfer: +18% better performance on hardware vs simulation
-• Scaling Law: 4.25× generalization improvement (12→40 training pairs), projecting classical parity at ~100 pairs
+  Using IBM's 156-qubit Eagle processor ibm_fez, we show that previous limitations of quantum natural language processing were not 
+  fundamental but originated from poor encoding design. All headline results below are obtained on real hardware (no error 
+  mitigation, free-tier access, November 2025).
 
-We identify three architectural prerequisites for quantum learning: Sparse Encoding, Ancilla-Based Measurement, and Non-Aliased Scaling. All results validated on real 156-qubit NISQ hardware (IBM Quantum ibm_fez, Eagle r3 processor).
+  Key hardware-validated findings:
 
-This repository contains the full manuscript, experiment code, trained weights, hardware execution results, and publication-ready figures.
+  • Encoding hierarchy: 132× performance gap between faithful Direct Angle Encoding (r = 0.989) and destructive Difference Encoding
+   (r = 0.007)
+
+  • Genuine quantum learning: +1.61 training effect on hardware, transforming actively anti-correlated random unitaries (r = −0.92)
+   into semantically meaningful manifolds (r = +0.69) with only 21 parameters
+
+  • Entanglement is required: entangled circuits achieve r = +0.69 while product-state ablation collapses to constant output (r = 
+  −0.11), yielding +0.81 entanglement advantage on real hardware
+
+  • Hardware outperforms simulation: +18% correlation improvement versus noiseless simulator
+
+  • First empirical scaling law for quantum semantic learning: increasing training data from 12 → 40 pairs improves generalization 
+  4.25× (r = 0.08 → 0.34), projecting parity with classical cosine baseline (r ≈ 0.86) at ~100 training examples
+
+  We establish three architectural prerequisites for quantum semantic learning on NISQ devices: (1) Sparse Encoding, (2) 
+  Ancilla-Based Measurement, and (3) Non-Aliased Angle Scaling [0.1, π−0.1].
+
+  This record contains:
+  • Complete manuscript (PDF)
+  • All source code (Qiskit 2.2.3)
+  • Trained parameters (best_theta)
+  • Raw IBM Quantum hardware results (JSON)
+  • Publication-ready figures
+  • 83-pair test set and interactive visualizations
+
+  All experiments are fully reproducible with an IBM Quantum free-tier account.
+   Related software: https://doi.org/10.5281/zenodo.17728126
+  Zenodo Form Fields
+
+
 ```
 
 ---

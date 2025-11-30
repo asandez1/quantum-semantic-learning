@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-24T22:29:29.927486",
+  "backend": "ibm_fez",
+  "n_qubits": 12,
+  "correlation": 0.7293948060194163,
+  "results": [
+    {
+      "pair": [
+        "dog",
+        "puppy"
+      ],
+      "target": 

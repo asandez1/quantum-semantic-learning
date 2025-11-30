@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-24T14:34:03.665151",
+  "method": "quantum_maml",
+  "n_tasks": 2,
+  "meta_iterations": 3,
+  "inner_steps": 3,
+  "inner_lr": 0.1,
+  "outer_lr": 0.01,
+  "meta_losses": [
+    0.059285630200569775,
+    0.05867459461511686,
+    0.05897915873352691
+  ],
+  "test_correlation": 0.04448766484222833,
+  "test_mse": 0.0492983742101016,
+  "test_support": 5,
+  "test_query": 15
+}

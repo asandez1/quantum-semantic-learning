@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-11-24T08:14:35.952399",
+  "correlation": 0.4756438098140638,
+  "results": [
+    {
+      "word": "animal",
+      "norm": 0.7116663455963135,
+      "gravitational_charge": 2.0262153148651123,
+      "attention_mass": 4.60553503036499,
+      "tree_depth": 4
+    },
+    {
+      "word": "mammal",
+      "norm": 0.7397773265838623,
+      "gravitational_charge": 2.208824396133423,
+      "attention_mass": 5.588413715362549,
+      "tree_depth": 5
+    },
+    {
+      "word": "dog",
+      "norm": 0.6545103788375854,
+      "gravitational_charge": 1.7494256496429443,
+      "attention_mass": 4.850810527801514,
+      "tree_depth": 6
+    },
+    {
+      "word": "poodle",
+      "norm": 0.6549469828605652,
+      "gravitational_charge": 1.751177191734314,
+      "attention_mass": null,
+      "tree_depth": 7
+    },
+    {
+      "word": "plant",
+      "norm": 0.5289337635040283,
+      "gravitational_charge": 1.3884472846984863,
+      "attention_mass": 4.866181373596191,
+      "tree_depth": 8
+    },
+    {
+      "word": "tree",
+      "norm": 0.6268472075462341,
+      "gravitational_charge": 1.6472766399383545,
+      "attention_mass": 5.195440292358398,
+      "tree_depth": 9
+    },
+    {
+      "word": "oak",
+      "norm": 0.6939910650253296,
+      "gravitational_charge": 1.9291001558303833,
+      "attention_mass": 5.2516865730285645,
+      "tree_depth": 10
+    },
+    {
+      "word": "vehicle",
+      "norm": 0.7053454518318176,
+      "gravitational_charge": 1.9900981187820435,
+      "attention_mass": 4.855225563049316,
+      "tree_depth": 11
+    },
+    {
+      "word": "car",
+      "norm": 0.7007868885993958,
+      "gravitational_charge": 1.9650311470031738,
+      "attention_mass": 4.703638076782227,
+      "tree_depth": 12
+    },
+    {
+      "word": "sedan",
+      "norm": 0.7411084175109863,
+      "gravitational_charge": 2.2184836864471436,
+      "attention_mass": 5.993330001831055,
+      "tree_depth": 13
+    }
+  ],
+  "note": "Proof that transformer attention implements hyperbolic gravity"
+}

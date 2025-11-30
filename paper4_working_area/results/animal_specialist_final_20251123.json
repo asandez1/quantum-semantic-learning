@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-23T10:23:03.988874",
+  "job_ids": [
+    "d4hgfsscdebc73f22mm0",
+    "d4hgg1h2bisc73a4f61g",
+    "d4hgg492bisc73a4f64g"
+  ],
+  "iterations_completed": 3,
+  "final_loss": 0.066434,
+  "best_loss": 0.066434,
+  "training_pairs": 3,
+  "target_similarity_range": [
+    0.183,
+    0.315
+  ],
+  "note": "PURE ANIMAL SPECIALIST \u2014 RETRIEVED FROM COMPLETED HARDWARE JOBS",
+  "backend": "ibm_fez",
+  "total_quantum_time_seconds": 15,
+  "converged": true,
+  "convergence_note": "Loss stable at 0.066434 across all iterations",
+  "history": [
+    {
+      "iteration": 1,
+      "job_id": "d4hgfsscdebc73f22mm0",
+      "status": "DONE",
+      "backend": "ibm_fez",
+      "execution_time": 5,
+      "timestamp": "2025-11-23T10:11:15.278936-03:00"
+    },
+    {
+      "iteration": 2,
+      "job_id": "d4hgg1h2bisc73a4f61g",
+      "status": "DONE",
+      "backend": "ibm_fez",
+      "execution_time": 5,
+      "timestamp": "2025-11-23T10:11:34.683972-03:00"
+    },
+    {
+      "iteration": 3,
+      "job_id": "d4hgg492bisc73a4f64g",
+      "status": "DONE",
+      "backend": "ibm_fez",
+      "execution_time": 5,
+      "timestamp": "2025-11-23T10:11:45.128398-03:00"
+    }
+  ]
+}

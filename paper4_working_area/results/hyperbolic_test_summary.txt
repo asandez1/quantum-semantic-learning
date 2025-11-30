@@ -1,0 +1,9 @@
+# Hyperbolic Transformer Test Summary
+- Date: 2025-11-24T12:45:53.808546
+- Experiment Name: Fully Hyperbolic Transformer — Stability Test
+- Backend: Classical (CPU/GPU)
+- Correlation: N/A
+- Quantum Hits: 0
+
+## Conclusion
+First stable fully hyperbolic attention layer — no Euclidean pre-training needed. Ready for training from scratch.

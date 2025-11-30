@@ -1,0 +1,21 @@
+graph TD
+    A[("📚<br>Coherent Training Pairs<br>(e.g., Animal Hierarchy)")] --> B{Prepare Batch Data};
+    B --> C[("✨<br>Scaled Vectors &<br>Target Similarities")];
+    
+    subgraph "SPSA Optimization Loop on Quantum Hardware"
+        direction TB
+        D[("Theta_initial<br>Random Parameters")];
+        D --> E{Iteration};
+        E --> F["Prepare Circuits<br>[v1, Theta, v2]"];
+        F --> G{{"⚡️<br>Run on<br>Quantum Computer"}};
+        G --> H["📊<br>Measured<br>Fidelities"];
+        H --> I{Calculate Loss};
+        I -- "minimize" --> J{Update Theta};
+        J --> E;
+    end
+
+    C --> I;
+    J --> K[("💾<br>Theta_Optimized<br>The 'Animal Specialist'")];
+
+    style K fill:#cde4f9,stroke:#5a91c8,stroke-width:2px
+```
